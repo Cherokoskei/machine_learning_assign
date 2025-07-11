@@ -4,11 +4,13 @@ By clustering students based on their math, reading, and writing scores, we aim 
 
 
 GOAL
+
 To group students based on performance similarity using K-Means Clustering and reduce dimensionality for visualization using Principal Component Analysis (PCA).
 
 
 
 📌 Key Steps
+
 *Data Preprocessing: Cleaning and selecting relevant features.
 *Clustering: Using K-Means to group students by academic similarity.
 *Dimensionality Reduction: Applying PCA to simplify data and visualize clusters.
