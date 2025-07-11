@@ -25,6 +25,9 @@ clusters = kmeans.fit_predict(data_scaled)
 df['cluster'] = clusters
 #cluster characteristics
 print(df.groupby('cluster')[['math score', 'reading score', 'writing score']].mean())
+S = df.groupby('cluster')[['math score', 'reading score', 'writing score']].mean()
+S.index = ['Average students','struggling students','High performers']
+S
 
 # PCA to reduce dimensions for 2D visualization
 pca = PCA(n_components=2)
