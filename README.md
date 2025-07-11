@@ -1,5 +1,6 @@
 # machine_learning_assign
-project applies unsupervised machine learning techniques to analyze and visualize patterns in student academic performance, addressing Sustainable Development Goal 4 (Quality Education). By clustering students based on their math, reading, and writing scores, we aim to uncover learning patterns that can inform targeted educational interventions and resource allocation.
+This project applies unsupervised machine learning techniques to analyze and visualize patterns in student academic performance, addressing  Quality Education as a Sustainable Development Goal. 
+By clustering students based on their math, reading, and writing scores, we aim to uncover learning patterns that can inform targeted educational interventions and resource allocation.
 
 GOAL
 To group students based on performance similarity using K-Means Clustering and reduce dimensionality for visualization using Principal Component Analysis (PCA).
